@@ -2,7 +2,7 @@
 Simple Foreground Service Music Player
 
 
-![Notification](https://github.com/app-z/ForegroundServiceMusic/player.png)
+![Notification](https://github.com/app-z/ForegroundServiceMusic/blob/master/player.png)
 
 This sample Music Player Based on <a href='https://github.com/SimpleMobileTools/Simple-File-Manager'>Simple-File-Manager</a>
 
