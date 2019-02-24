@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jednoduchý správca súborov</string>
+    <string name="app_launcher_name">Správca súborov</string>
+    <string name="press_back_again">Znovu stlačte späť pre opustenie aplikácie</string>
+    <string name="no_app_found">Nenašla sa žiadna aplikácia na otvorenie tohto typu súboru</string>
+    <string name="go_to_home_folder">Ísť do domovského priečinka</string>
+    <string name="set_as_home_folder">Nastaviť ako domovský priečinok</string>
+    <string name="home_folder_updated">Domovský priečinok bol nastavený</string>
+    <string name="copy_path">Kopírovať cestu do schránky</string>
+    <string name="path_copied">Cesta skopírovaná</string>
+    <string name="select_audio_file">Prosím zvoľte audio súbor</string>
+    <string name="search_folder">Hľadať v priečinku</string>
+    <string name="rooted_device_only">Táto operácia funguje iba na rootnutých zariadeniach</string>
+
+    <!-- Open as -->
+    <string name="open_as">Otvoriť ako</string>
+    <string name="text_file">Textový súbor</string>
+    <string name="image_file">Obrázkový súbor</string>
+    <string name="audio_file">Audio súbor</string>
+    <string name="video_file">Video súbor</string>
+    <string name="other_file">Iný súbor</string>
+
+    <!-- Compression -->
+    <string name="compress">Komprimovať</string>
+    <string name="decompress">Dekomprimovať</string>
+    <string name="compress_as">Komprimovať ako</string>
+    <string name="compressing">Komprimuje sa…</string>
+    <string name="decompressing">Dekomprimuje sa…</string>
+    <string name="compression_successful">Kompresia bola úspešná</string>
+    <string name="decompression_successful">Dekompresia bola úspešná</string>
+    <string name="compressing_failed">Kompresia zlyhala</string>
+    <string name="decompressing_failed">Dekompresia zlyhala</string>
+
+    <!-- Favorites -->
+    <string name="manage_favorites">Spravovať obľúbené</string>
+    <string name="go_to_favorite">Ísť medzi obľúbené</string>
+    <string name="favorites_activity_placeholder">Pre jednoduchý prístup k často používaným priečinkom si ich viete pridať medzi obľúbené</string>
+
+    <!-- File Editor -->
+    <string name="file_editor">Editor súborov</string>
+
+    <!-- Settings -->
+    <string name="enable_root_access">Povoliť prístup ku koreňovým súborom</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Jednoduchý správca súborov pre prehliadanie a úpravu súborov a priečinkov.</string>
+    <string name="app_long_description">
+        Môže byť použitý na prehliadanie koreňového priečinka a SD kariet. Viete jednoducho premenovať, kopírovať, vymazať a zdieľať hocičo.
+
+        Prístup ku odtlačkom prstov je potrebný pre uzamykanie skrytých položiek, alebo celej apky.
+
+        Neobsahuje žiadne reklamy a nepotrebné oprávnenia. Je opensource, poskytuje možnosť zmeny farieb.
+
+        Táto aplikácia je iba jednou zo skupiny aplikácií. Ostatné viete nájsť na https://www.simplemobiletools.com
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

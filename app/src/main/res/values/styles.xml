@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="ButtonSoundNotificatonTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="colorControlHighlight">@color/notification_color_control_highlight</item>
+        <item name="colorAccent">@color/notification_color_accent</item>
+    </style>
+
+    <style name="ProgressBarSoundNotificatonTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:indeterminateTint">@color/white</item>
+        <item name="android:indeterminateTintMode">src_in</item>
+    </style>
+
+    <style name="TitleTextSoundNotificatonTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:textColor">@color/notification_color_title_text_material</item>
+    </style>
+
+    <style name="BlackNoTitleBarTheme" parent="android:Theme.Holo"/>
+
+</resources>

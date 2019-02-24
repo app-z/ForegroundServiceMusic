@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">シンプル ファイル マネージャー</string>
+    <string name="app_launcher_name">ファイル マネージャー</string>
+    <string name="press_back_again">もう一度[戻る]を押すと終了します</string>
+    <string name="no_app_found">この種類のファイルを開くためのアプリがありません</string>
+    <string name="go_to_home_folder">ホームフォルダを開く</string>
+    <string name="set_as_home_folder">ホームフォルダに設定</string>
+    <string name="home_folder_updated">ホームフォルダを更新しました</string>
+    <string name="copy_path">パスをクリップボードにコピー</string>
+    <string name="path_copied">パスをコピーしました</string>
+    <string name="select_audio_file">オーディオファイルを選択してください</string>
+    <string name="search_folder">フォルダーを検索</string>
+    <string name="rooted_device_only">この操作はルート化された端末でのみ機能します</string>
+
+    <!-- Open as -->
+    <string name="open_as">ファイル形式を指定して開く</string>
+    <string name="text_file">テキストファイル</string>
+    <string name="image_file">画像ファイル</string>
+    <string name="audio_file">音声ファイル</string>
+    <string name="video_file">動画ファイル</string>
+    <string name="other_file">その他のファイル</string>
+
+    <!-- Compression -->
+    <string name="compress">圧縮</string>
+    <string name="decompress">解凍</string>
+    <string name="compress_as">形式を指定して圧縮</string>
+    <string name="compressing">圧縮しています…</string>
+    <string name="decompressing">解凍しています…</string>
+    <string name="compression_successful">正常に圧縮しました</string>
+    <string name="decompression_successful">正常に解凍しました</string>
+    <string name="compressing_failed">圧縮できませんでした</string>
+    <string name="decompressing_failed">解凍できませんでした</string>
+
+    <!-- Favorites -->
+    <string name="manage_favorites">お気に入りを管理</string>
+    <string name="go_to_favorite">お気に入りを開く</string>
+    <string name="favorites_activity_placeholder">よく使うフォルダをお気に入りに追加して、どこからでも簡単にアクセスできます。</string>
+
+    <!-- File Editor -->
+    <string name="file_editor">ファイル エディター</string>
+
+    <!-- Settings -->
+    <string name="enable_root_access">ルートアクセスを有効にする</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">ファイルやディレクトリーを参照、編集するためのシンプルなファイルマネージャー。</string>
+    <string name="app_long_description">
+        ルートファイルやSDカードコンテンツの参照にも使用できます。 簡単に名前の変更、コピー、移動、削除、共有ができます。
+
+        「指紋のアクセス許可」は非表示にしたアイテムの再表示や、アプリの操作をロックするために必要です。
+
+        広告や不要なアクセス許可は含まれていません。 完全にオープンソースで、ダークテーマも提供しています。
+
+        このアプリは、大きな一連のアプリの一つです。 他のアプリは https://www.simplemobiletools.com で見つけることができます
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

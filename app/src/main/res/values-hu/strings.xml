@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple File Manager</string>
+    <string name="app_launcher_name">Fájlkezelő</string>
+    <string name="press_back_again">Kilépéshez nyomd meg újra a visszagombot</string>
+    <string name="no_app_found">Nincs elérhető alkalmazás az ilyen típusú alkalmazások megnyitásához</string>
+    <string name="go_to_home_folder">Ugrás a kezdőmappára</string>
+    <string name="set_as_home_folder">Beállítás kezdőmappának</string>
+    <string name="home_folder_updated">Kezdőmappa frissítve</string>
+    <string name="copy_path">Copy path to clipboard</string>
+    <string name="path_copied">Path copied</string>
+    <string name="select_audio_file">Please select an audio file</string>
+    <string name="search_folder">Search folder</string>
+    <string name="rooted_device_only">This operation works only on rooted devices</string>
+
+    <!-- Open as -->
+    <string name="open_as">Open as</string>
+    <string name="text_file">Text file</string>
+    <string name="image_file">Image file</string>
+    <string name="audio_file">Audio file</string>
+    <string name="video_file">Video file</string>
+    <string name="other_file">Other file</string>
+
+    <!-- Compression -->
+    <string name="compress">Compress</string>
+    <string name="decompress">Decompress</string>
+    <string name="compress_as">Compress as</string>
+    <string name="compressing">Compressing…</string>
+    <string name="decompressing">Decompressing…</string>
+    <string name="compression_successful">Compression successful</string>
+    <string name="decompression_successful">Decompression successful</string>
+    <string name="compressing_failed">Compressing failed</string>
+    <string name="decompressing_failed">Decompressing failed</string>
+
+    <!-- Favorites -->
+    <string name="manage_favorites">Kedvencek kezelése</string>
+    <string name="go_to_favorite">Ugrás kedvenchez</string>
+    <string name="favorites_activity_placeholder">A gyakran használt mappákat kedvencnek jelölheted, hogy bárhonnan könnyen elérd őket.</string>
+
+    <!-- File Editor -->
+    <string name="file_editor">File Editor</string>
+
+    <!-- Settings -->
+    <string name="enable_root_access">Enable root access</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Egyszerű fájlkezelő fájlok és könyvtárak böngészéséhez és szerkesztéséhez.</string>
+    <string name="app_long_description">
+        Rendszerfájlok és SD kártya böngészésére is használható. Egyszerűen átnevezhető, másolható, mozgatható, törölhető és megosztható bármi, amit szeretnél.
+
+        The fingerprint permission is needed for locking either hidden item visibility, or the whole app.
+
+        Nincsenek reklámok, sem felesleges engedélykérések. Teljesen nyílt forráskódú. Sötét téma is elérhető.
+
+        Ez az alkalmazás egy nagyobb sorozat egyik darabja. A többit is megtalálod itt: https://www.simplemobiletools.com
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>
