@@ -34,8 +34,8 @@ It is integrated by onClick method
                     activity?.toast(R.string.select_audio_file)
                 }
             } else {
-                val match = MUSIC_FILE_EXT.filter { it in path.extension() }
-                if (!match.isEmpty()) {
+                val found = Arrays.stream(MUSIC_FILE_EXT).anyMatch { t -> t == path.extension() }
+                if (found) {
                     tryPlayFile(path)
                 } else {
                     activity!!.tryOpenPathIntent(path, false)

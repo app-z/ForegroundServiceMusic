@@ -35,7 +35,7 @@ import com.simplemobiletools.filemanager.pro.player.MusicConstants.MUSIC_FILE_EX
 import com.simplemobiletools.filemanager.pro.player.SoundService
 import kotlinx.android.synthetic.main.items_fragment.view.*
 import java.io.File
-import java.util.HashMap
+import java.util.*
 import kotlin.collections.ArrayList
 
 class ItemsFragment : Fragment(), ItemOperationsListener, Breadcrumbs.BreadcrumbsListener {
@@ -250,8 +250,9 @@ class ItemsFragment : Fragment(), ItemOperationsListener, Breadcrumbs.Breadcrumb
                     activity?.toast(R.string.select_audio_file)
                 }
             } else {
-                val match = MUSIC_FILE_EXT.filter { it in path.extension() }
-                if (!match.isEmpty()) {
+//                val match = MUSIC_FILE_EXT.filter { it in path.extension() }
+                val found = Arrays.stream(MUSIC_FILE_EXT).anyMatch { t -> t == path.extension() }
+                if (found) {
                     tryPlayFile(path)
                 } else {
                     activity!!.tryOpenPathIntent(path, false)
